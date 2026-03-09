@@ -1,2 +1,4 @@
-# WEEK-2
- – Actividad 1: Implementación de Redes Neuronales Básicas en Google Colab 
+OBJETIVO Implementar una neurona artificial (perceptrón) funcional utilizando Python y NumPy para validar la lógica de clasificación binaria mediante el cálculo del puntaje $z$ y el uso de umbrales de activación.
+QUE SE IMPLEMENTO : Uso de np.dot para la sumatoria de entradas por pesos más sesgo.Función de activación tipo escalón para determinar salidas binarias 0 o 1.Configuración de Parámetros: Establecimiento de pesos en $1.0$ y un bias de $-1.5$ para emular un comportamiento restrictivo.
+PRUEBAS REALIZADAS Se ejecutó un conjunto de pruebas controladas basadas en la tabla de verdad de la compuerta lógica AND. Se evaluaron los cuatro escenarios posibles de entrada ([0,0], [0,1], [1,0], [1,1]) para registrar la variación del puntaje $z$ y la efectividad de la clasificación final.
+RESULTADOS PRINCIPALES El modelo logró una separación lineal perfecta, emitiendo una salida positiva únicamente cuando la combinación de entradas neutralizó el sesgo negativo, funcionando con éxito como una compuerta lógica AND.
